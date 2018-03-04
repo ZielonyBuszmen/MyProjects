@@ -1,24 +1,32 @@
 const array = [
   {
-    title: 'Hackaton WawCode',
-    description: 'Opis jakis tam',
-    photo: 'photos/placeholder.png',
+    title: 'Kalendarz Historyczny ',
+    description: 'Projekt zrealizowany podczas hackatonu <b>WawCode 2017</b>. Jest to kalendarz, wyświetlający wydarzenia z danego dnia, które miały miejsce w przeszłości i działy się na terenie Warszawy',
+    photo: 'photos/kalendarzHistoryczn.png',
     link: {
-      github: 'guthub.com/asdasd',
-      www: ['pplan.cba.pl',],
-      descLink: 'zielonybuszmen.github.io/asdasd',
-      blog: 'asd'
+      github: 'https://github.com/ZielonyBuszmen/WawCodeApi',
+      www: [],
+      blog: ''
     }
   },
   {
-    title: 'Blog ',
-    description: 'Opis jakis tam',
-    photo: 'photos/placeholder.png',
+    title: 'Blog',
+    description: 'Mocno techniczny blog programistyczny oparty o GoHugo i GitHub Pages',
+    photo: 'photos/blog.png',
     link: {
-      github: 'guthub.com/asdasd',
-      www: ['pplan.cba.pl',],
-      descLink: 'zielonybuszmen.github.io/asdasd',
-      blog: 'asd'
+      github: '',
+      www: ['https://zielonybuszmen.github.io/',],
+      blog: ''
+    }
+  },
+  {
+    title: 'Algorytmy',
+    description: 'Dsyć spore repozytorium z kodem i materiałami pomocnymi przy nauce <b>A</b>lgorytmó <b>i</b> <b>D</b>anych <b>S</b>truktur. Implementacja w C#.',
+    photo: 'photos/algorytmy.png',
+    link: {
+      github: 'https://github.com/ZielonyBuszmen/Algorytmy',
+      www: ['https://github.com/ZielonyBuszmen/Algorytmy/blob/master/README.md'],
+      blog: ''
     }
   },
   {
@@ -43,35 +51,22 @@ const array = [
   },
   {
     title: 'onePage Hafty',
-    description: 'Opis jakis tam',
-    photo: 'photos/placeholder.png',
+    description: 'Projekt na zlecenie. Z założenia miała być to strona do auto-prezentacji, na której klient może pokazywać swoje ręko-dzieła. Dlatego też głównym miejscem na stronie jest galeria, uzupełniona dodatkowo o krótką notkę biograficzną. Wszystko wykonane jako ‘OnePage’. Strona została “zlokalizowana” w trzech językach, a sama jest napisana na Laravelu.',
+    photo: 'photos/hafty.png',
     link: {
-      github: 'guthub.com/asdasd',
-      www: ['pplan.cba.pl',],
-      descLink: 'zielonybuszmen.github.io/asdasd',
-      blog: 'asd'
+      github: 'https://github.com/ZielonyBuszmen/onePage-hafty',
+      www: ['http://hafty-kasi.cba.pl/',],
+      blog: 'https://zielonybuszmen.github.io/2017/02/23/onepage-hafty/'
     }
   },
   {
     title: 'jpg.aq.pl',
-    description: 'Opis jakis tam',
-    photo: 'photos/placeholder.png',
+    description: 'Projekt napisany na potrzeby własne. A potrzebą był szybki upload zdjęć do `chmury`, bez potrzeby logowania i innych niepotrzebnych formalności. I ten serwis taki jest - wrzucasz zdjęcie, dostajesz link i zapewnienie, że zdjęcie z czasem nie wygaśnie (jak ma to miejsce na wielu podobnych stronach).',
+    photo: 'photos/jpg_aq_pl.png',
     link: {
-      github: 'guthub.com/asdasd',
-      www: ['pplan.cba.pl',],
-      descLink: 'zielonybuszmen.github.io/asdasd',
-      blog: 'asd'
-    }
-  },
-  {
-    title: 'projektMoodle',
-    description: 'Opis jakis tam',
-    photo: 'photos/placeholder.png',
-    link: {
-      github: 'guthub.com/asdasd',
-      www: ['pplan.cba.pl',],
-      descLink: 'zielonybuszmen.github.io/asdasd',
-      blog: 'asd'
+      github: '',
+      www: ['http://jpeg.aq.pl/',],
+      blog: 'https://zielonybuszmen.github.io/2017/02/22/jpg-aq-pl-hosting-screenow-i-zdjec/'
     }
   },
 ];
@@ -133,7 +128,7 @@ function createTile(projectObject) {
     </div>
   `;
   const node = document.createElement('div');
-  node.className += 'col-md-4';
+  node.className += 'col-md-6 col-lg-4';
   node.innerHTML = template;
   document.getElementById('projects_list').appendChild(node);
 }
