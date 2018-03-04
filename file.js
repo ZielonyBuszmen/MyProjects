@@ -1,6 +1,70 @@
 const array = [
   {
-    title: 'tytuł',
+    title: 'Hackaton WawCode',
+    description: 'Opis jakis tam',
+    photo: 'photos/placeholder.png',
+    link: {
+      github: 'guthub.com/asdasd',
+      www: ['pplan.cba.pl',],
+      descLink: 'zielonybuszmen.github.io/asdasd',
+      blog: 'asd'
+    }
+  },
+  {
+    title: 'Blog ',
+    description: 'Opis jakis tam',
+    photo: 'photos/placeholder.png',
+    link: {
+      github: 'guthub.com/asdasd',
+      www: ['pplan.cba.pl',],
+      descLink: 'zielonybuszmen.github.io/asdasd',
+      blog: 'asd'
+    }
+  },
+  {
+    title: 'projektMoodle',
+    description: 'W pełni działająca aplikacja e-learningowa, umożliwiająca wysyłanie materiałów, tworzenie testów, wystawianie ocen i administrowanie kursem. Projekt został stworzony na potrzeby zaliczenia programowania w czwartej klasie technikum informatycznego.',
+    photo: 'photos/projektMoodle.png',
+    link: {
+      github: 'https://github.com/bartoszgajda55/projektMoodle',
+      www: ['http://projektmoodle.cba.pl/', 'http://projektmoodle.za.pl/',],
+      blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-moodle-prosta-platforma-e-learningowa/',
+    }
+  },
+  {
+    title: 'projektSklep',
+    description: 'Projekt sklepu internetowego wraz z paginacją, filtrowaniem, koszykiem, składaniem zamówienia i panelem administratora dla pracownika. Projekt został stworzony na potrzeby zaliczenia programowania w czwartej klasie technikum informatycznego.',
+    photo: 'photos/projektSklep.png',
+    link: {
+      github: 'https://github.com/ZielonyBuszmen/projektSklep',
+      www: ['http://projektsklep.cba.pl/','http://projektsklep.za.pl/'],
+      blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-sklep-prosty-sklep-internetowy/'
+    }
+  },
+  {
+    title: 'onePage Hafty',
+    description: 'Opis jakis tam',
+    photo: 'photos/placeholder.png',
+    link: {
+      github: 'guthub.com/asdasd',
+      www: ['pplan.cba.pl',],
+      descLink: 'zielonybuszmen.github.io/asdasd',
+      blog: 'asd'
+    }
+  },
+  {
+    title: 'jpg.aq.pl',
+    description: 'Opis jakis tam',
+    photo: 'photos/placeholder.png',
+    link: {
+      github: 'guthub.com/asdasd',
+      www: ['pplan.cba.pl',],
+      descLink: 'zielonybuszmen.github.io/asdasd',
+      blog: 'asd'
+    }
+  },
+  {
+    title: 'projektMoodle',
     description: 'Opis jakis tam',
     photo: 'photos/placeholder.png',
     link: {
