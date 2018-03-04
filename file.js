@@ -2,7 +2,7 @@ const array = [
   {
     title: 'Kalendarz Historyczny ',
     description: 'Projekt zrealizowany podczas hackatonu <b>WawCode 2017</b>. Jest to kalendarz, wyświetlający wydarzenia z danego dnia, które miały miejsce w przeszłości i działy się na terenie Warszawy',
-    photo: 'photos/kalendarzHistoryczn.png',
+    photo: 'photos/kalendarzHistoryczny.png',
     link: {
       github: 'https://github.com/ZielonyBuszmen/WawCodeApi',
       www: [],
