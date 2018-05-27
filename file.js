@@ -49,7 +49,7 @@ const array = [
     photo: 'photos/projektMoodle.png',
     link: {
       github: 'https://github.com/bartoszgajda55/projektMoodle',
-      www: ['http://projektmoodle.cba.pl/', 'http://projektmoodle.za.pl/',],
+      www: ['http://projektmoodle.cba.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-moodle-prosta-platforma-e-learningowa/',
     },
     date: 'październik 2015',
@@ -60,7 +60,7 @@ const array = [
     photo: 'photos/projektSklep.png',
     link: {
       github: 'https://github.com/ZielonyBuszmen/projektSklep',
-      www: ['http://projektsklep.cba.pl/','http://projektsklep.za.pl/'],
+      www: ['http://projektsklep.cba.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-sklep-prosty-sklep-internetowy/'
     },
     date: 'listopad 2015',
@@ -82,7 +82,7 @@ const array = [
     photo: 'photos/jpg_aq_pl.png',
     link: {
       github: '',
-      www: ['http://jpeg.aq.pl/',],
+      www: ['http://foty.herokuapp.com/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/22/jpg-aq-pl-hosting-screenow-i-zdjec/'
     },
     date: 'styczeń 2013',
