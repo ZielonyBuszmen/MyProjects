@@ -1,5 +1,16 @@
 const array = [
   {
+    title: 'TimestampConverter ',
+    description: '`Konwerter` timestampa na normalną datę i <i>vice versa</i>. Napisany w czystym JavaScript ES6, z wykorzystaniem Bootstrapa 4. Jest odpowiedzią na wszelkie bolączki toczące słabe konwertery krążące po sieci i wyświetlające masy reklam',
+    photo: 'photos/timestampConverter.png',
+    link: {
+      github: 'https://github.com/ZielonyBuszmen/TimestampConverter',
+      www: ['https://zielonybuszmen.github.io/TimestampConverter/'],
+      blog: ''
+    },
+    date: 'październik 2017',
+  },
+  {
     title: 'Kalendarz Historyczny ',
     description: 'Projekt zrealizowany podczas hackatonu <b>WawCode 2017</b>. Jest to kalendarz, wyświetlający wydarzenia z danego dnia, które miały miejsce w przeszłości i działy się na terenie Warszawy',
     photo: 'photos/kalendarzHistoryczny.png',
@@ -7,7 +18,8 @@ const array = [
       github: 'https://github.com/ZielonyBuszmen/WawCodeApi',
       www: [],
       blog: ''
-    }
+    },
+    date: 'październik 2017',
   },
   {
     title: 'Blog',
@@ -17,17 +29,19 @@ const array = [
       github: '',
       www: ['https://zielonybuszmen.github.io/',],
       blog: ''
-    }
+    },
+    date: 'luty 2017 - teraz',
   },
   {
     title: 'Algorytmy',
-    description: 'Dsyć spore repozytorium z kodem i materiałami pomocnymi przy nauce <b>A</b>lgorytmó <b>i</b> <b>D</b>anych <b>S</b>truktur. Implementacja w C#.',
+    description: 'Dosyć spore repozytorium z kodem i materiałami pomocnymi przy nauce <b>A</b>lgorytmów <b>i</b> <b>D</b>anych <b>S</b>truktur. Implementacja w C#.',
     photo: 'photos/algorytmy.png',
     link: {
       github: 'https://github.com/ZielonyBuszmen/Algorytmy',
       www: ['https://github.com/ZielonyBuszmen/Algorytmy/blob/master/README.md'],
       blog: ''
-    }
+    },
+    date: 'styczeń 2018',
   },
   {
     title: 'projektMoodle',
@@ -37,7 +51,8 @@ const array = [
       github: 'https://github.com/bartoszgajda55/projektMoodle',
       www: ['http://projektmoodle.cba.pl/', 'http://projektmoodle.za.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-moodle-prosta-platforma-e-learningowa/',
-    }
+    },
+    date: 'październik 2015',
   },
   {
     title: 'projektSklep',
@@ -47,7 +62,8 @@ const array = [
       github: 'https://github.com/ZielonyBuszmen/projektSklep',
       www: ['http://projektsklep.cba.pl/','http://projektsklep.za.pl/'],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-sklep-prosty-sklep-internetowy/'
-    }
+    },
+    date: 'listopad 2015',
   },
   {
     title: 'onePage Hafty',
@@ -57,7 +73,8 @@ const array = [
       github: 'https://github.com/ZielonyBuszmen/onePage-hafty',
       www: ['http://hafty-kasi.cba.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/onepage-hafty/'
-    }
+    },
+    date: 'luty 2017',
   },
   {
     title: 'jpg.aq.pl',
@@ -67,7 +84,8 @@ const array = [
       github: '',
       www: ['http://jpeg.aq.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/22/jpg-aq-pl-hosting-screenow-i-zdjec/'
-    }
+    },
+    date: 'styczeń 2013',
   },
 ];
 
