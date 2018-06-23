@@ -8,7 +8,7 @@ const array = [
       www: ['https://zielonybuszmen.github.io/TimestampConverter/'],
       blog: ''
     },
-    date: 'październik 2017',
+    date: 'kwiecień 2018',
   },
   {
     title: 'Kalendarz Historyczny ',
@@ -44,6 +44,17 @@ const array = [
     date: 'styczeń 2018',
   },
   {
+    title: 'onePage Hafty',
+    description: 'Projekt na zlecenie. Z założenia miała być to strona do auto-prezentacji, na której klient może pokazywać swoje ręko-dzieła. Dlatego też głównym miejscem na stronie jest galeria, uzupełniona dodatkowo o krótką notkę biograficzną. Wszystko wykonane jako ‘OnePage’. Strona została “zlokalizowana” w trzech językach, a sama jest napisana na Laravelu.',
+    photo: 'photos/hafty.png',
+    link: {
+      github: 'https://github.com/ZielonyBuszmen/onePage-hafty',
+      www: ['http://hafty-kasi.cba.pl/',],
+      blog: 'https://zielonybuszmen.github.io/2017/02/23/onepage-hafty/'
+    },
+    date: 'luty 2017',
+  },
+  {
     title: 'projektMoodle',
     description: 'W pełni działająca aplikacja e-learningowa, umożliwiająca wysyłanie materiałów, tworzenie testów, wystawianie ocen i administrowanie kursem. Projekt został stworzony na potrzeby zaliczenia programowania w czwartej klasie technikum informatycznego.',
     photo: 'photos/projektMoodle.png',
@@ -52,7 +63,7 @@ const array = [
       www: ['http://projektmoodle.cba.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-moodle-prosta-platforma-e-learningowa/',
     },
-    date: 'październik 2015',
+    date: 'październik - listopad 2015',
   },
   {
     title: 'projektSklep',
@@ -63,18 +74,7 @@ const array = [
       www: ['http://projektsklep.cba.pl/',],
       blog: 'https://zielonybuszmen.github.io/2017/02/23/projekt-sklep-prosty-sklep-internetowy/'
     },
-    date: 'listopad 2015',
-  },
-  {
-    title: 'onePage Hafty',
-    description: 'Projekt na zlecenie. Z założenia miała być to strona do auto-prezentacji, na której klient może pokazywać swoje ręko-dzieła. Dlatego też głównym miejscem na stronie jest galeria, uzupełniona dodatkowo o krótką notkę biograficzną. Wszystko wykonane jako ‘OnePage’. Strona została “zlokalizowana” w trzech językach, a sama jest napisana na Laravelu.',
-    photo: 'photos/hafty.png',
-    link: {
-      github: 'https://github.com/ZielonyBuszmen/onePage-hafty',
-      www: ['http://hafty-kasi.cba.pl/',],
-      blog: 'https://zielonybuszmen.github.io/2017/02/23/onepage-hafty/'
-    },
-    date: 'luty 2017',
+    date: 'październik - listopad 2015',
   },
   {
     title: 'jpg.aq.pl',
@@ -127,13 +127,14 @@ function createBlogLink(linkObject) {
 }
 
 function createTile(projectObject) {
-  const {title, description, link, photo} = projectObject;
+  const {title, description, link, photo, date} = projectObject;
 
   const template = `
     <div class="card mb-4 box-shadow">
       <img class="card-img-top" src="${photo}" alt="${title}">
       <div class="card-body">
         <b>${title}</b>
+        <p class="date text-secondary small">${date}</p>
         <p class="card-text">${description}</p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
