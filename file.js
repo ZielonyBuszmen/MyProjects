@@ -1,5 +1,16 @@
 const array = [
   {
+    title: 'GraphProjekt',
+    description: 'Aplikacja napisana w React i Redux, umożliwiająca sprawdzanie silnej spójności grafu.',
+    photo: 'photos/graphProjekt.png',
+    link: {
+      github: 'https://github.com/ZielonyBuszmen/GraphProjekt',
+      www: ['https://zielonybuszmen.github.io/GraphProjekt/'],
+      blog: ''
+    },
+    date: 'czerwiec 2018',
+  },
+  {
     title: 'TimestampConverter ',
     description: '`Konwerter` timestampa na normalną datę i <i>vice versa</i>. Napisany w czystym JavaScript ES6, z wykorzystaniem Bootstrapa 4. Jest odpowiedzią na wszelkie bolączki toczące słabe konwertery krążące po sieci i wyświetlające masy reklam',
     photo: 'photos/timestampConverter.png',
