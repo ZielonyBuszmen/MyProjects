@@ -1,5 +1,16 @@
 const array = [
   {
+    title: 'Image Changer',
+    description: 'Program graficzny, służący do edycji istniejących obrazów i tworzenia nowych. Przekształcenia obrazów odbywają się za pomocą Canvasa z HTML5, a szkielet strony oparty jest o Reacta i Reduxa',
+    photo: 'photos/imageChanger.png',
+    link: {
+      github: 'https://github.com/Patrycja20/ImageChanger',
+      www: ['https://patrycja20.github.io/ImageChanger/'],
+      blog: ''
+    },
+    date: 'listopad 2018',
+  },
+  {
     title: 'GraphProjekt',
     description: 'Aplikacja napisana w React i Redux, umożliwiająca sprawdzanie silnej spójności grafu.',
     photo: 'photos/graphProjekt.png',
