@@ -1,5 +1,38 @@
 const array = [
   {
+    title: 'Testowanie aplikacji w React.js.',
+    description: 'Prawie trzy-godzinny kurs wideo. Podczas kursu poruszane są tematy związane z testami jednostkowymi i integracyjnymi. Omawiane są wady i zalety testowania, wyjaśnione zjawisko regresji, i wiele więcej. Całość oparta jest na praktycznych przykładach prezentowanych w kodzie źródłowym. ',
+    photo: 'photos/kursJestJs.png',
+    link: {
+      github: '',
+      www: ['https://videopoint.pl/kurs/testowanie-aplikacji-w-react-js-kurs-video-praca-z-biblioteka-jest-js-krzysztof-komar,vtesap.htm', 'https://videopoint.pl/kurs/testowanie-aplikacji-w-react-js-kurs-video-praca-z-biblioteka-jest-js-krzysztof-komar,vtesap.htm'],
+      blog: ''
+    },
+    date: 'czerwiec - wrzesień 2019',
+  },
+  {
+    title: 'Literaki',
+    description: 'Literaki to dwu-osobowa gra, polegająca na zgadywaniu popularnych polskich przysłów. Napisana w Pythonie (backend) oraz w React+Redux (frontend). Komunikacja pomiędzy graczami a serwerem opiera się o websockets.',
+    photo: 'photos/literaki.png',
+    link: {
+      github: 'https://github.com/ZielonyBuszmen/Literaki',
+      www: [],
+      blog: ''
+    },
+    date: 'kwiecień 2019',
+  },
+  {
+    title: 'VirtualPiano',
+    description: 'VirtualPiano to aplikacja pozwalająca na grę na pianinie za pomocą zwykłej klawiatury w przeglądarce, z możliwością przełączania typów granego dźwięku',
+    photo: 'photos/virtualPiano.png',
+    link: {
+      github: 'https://github.com/Patrycja20/VirtualPiano',
+      www: ['https://patrycja20.github.io/VirtualPiano/'],
+      blog: ''
+    },
+    date: 'styczeń 2019',
+  },
+  {
     title: 'Image Changer',
     description: 'Program graficzny, służący do edycji istniejących obrazów i tworzenia nowych. Przekształcenia obrazów odbywają się za pomocą Canvasa z HTML5, a szkielet strony oparty jest o Reacta i Reduxa',
     photo: 'photos/imageChanger.png',
@@ -104,7 +137,7 @@ const array = [
     photo: 'photos/jpg_aq_pl.png',
     link: {
       github: '',
-      www: ['http://foty.herokuapp.com/',],
+      www: [],
       blog: 'https://zielonybuszmen.github.io/2017/02/22/jpg-aq-pl-hosting-screenow-i-zdjec/'
     },
     date: 'styczeń 2013',
